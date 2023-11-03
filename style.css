@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Noto Snas KR';
+    src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap);
+}
+
+*{margin:0;
+  list-style:none;
+  font-size: 0;
+  font-family: 'Noto Sans KR';
+}
+.box01{position: relative;
+       text-align: center;}
+
+.box01 h1{position: absolute;
+         text-align: center;
+         left: 50%; transform:
+         translateX(-50%);
+         margin-top: 200px;
+         color: white;
+         font-size: 50px;}
+
+.box01 h2{position: absolute;
+         text-align: center;
+          left: 50%; transform:
+        translateX(-50%);
+         margin-top: 340px;
+        color: white;
+        font-size: 18px;
+        Font-weight: 100}        
+
+.box02{position: relative;
+       text-align: center;
+       margin-top: 340px;}
+
+.box02 h1{
+        position: absolute;
+        text-align: center;
+        left: 50%; transform:
+        translateX(-50%);
+        margin-top: 140px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        Font-weight: 100;
+        }
+
+.box03{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 10px;
+    width: 800px;
+    border: 1px;}
+
+.box03 p{text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   Font-weight: 100}
+
+.box04{display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 300px;
+    text-align: center;}
+
+.box05_h{
+    background: url(./img/04.png);
+    width: 1920px;
+    margin: 0 auto;
+    padding: 50px 0;
+}        
+.box05_h ul{
+    display: inline-flex;
+    text-align: center;
+}
+.box05_h ul img{
+    width:550px;
+    height: 385px;
+    text-align: center;
+}
+.box05_h ul li{
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    margin-left: 125px;
+}
+.box05_h .sub01 li:nth-child(1){
+width: 600px; padding-right:287px; padding-left: 0px;}
+.box05_h .sub02 li:nth-child(2){
+width: 600px; padding-left: 300px; padding-right: 100px;}
+
+
+.box06{position: relative;
+        margin-top: -5px;
+        text-align: center;}
+
+.box06 h5{position: absolute;
+    border: 1px;
+    text-align: center;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 1200px;
+    margin-top: 196px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    Font-weight: 100}
+
+.box06 .img2{
+    position: absolute;
+    top: 500px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.box07{text-align: center;}
+
+    .box07 h6{position: absolute;
+        border: 1px;
+        text-align: center;
+        left: 50%; 
+        transform: translateX(-50%);
+        width: 1200px;
+        margin-top: 400px;
+        color: rgb(88, 88, 88);
+        font-size: 24px;
+        Font-weight: 100}
+    
+.box08{position: relative;
+    text-align: center;}
+
+.box09{position: absolute;
+        left: 50%; 
+        transform: translateX(-50%);
+        bottom: 10px;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        Font-weight: 100}
